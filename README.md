@@ -10,11 +10,11 @@ This project was started in 2019 at a hackathon in Wellesley, Massachusetts. I c
 
 ---
 
-##steps to achieve this project
+## steps to achieve this project
 1. follow a github tutorial to make the proejct work well
 2. learn how to finish rest of project (recursion! yay!)
 
 ---
 
-##similar projects
-link [british version of virtual reality safe space] (https://safespacevr.com)
+## similar projects
+[british version of virtual reality safe space](https://safespacevr.com)
