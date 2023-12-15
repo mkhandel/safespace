@@ -1,0 +1,1 @@
+function moveToLoginPage() = () => window.location = "";

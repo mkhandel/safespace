@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylebackground.css">
+    <title>Background | Virtual Reality Safe Space</title>
+  </head>
+  <body>
+    <h1>Choose Background</h1>
+
+  </body>
+</html>
+
+
+
+
+
+<ul>
+  {% for thing in site.pages %}
+    {% if thing.identifier == 'value' %}
+  <li>
+    {{ thing.title }}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+
+
+show all backgrounds on one page
+even number so it can be distributed evenly, OR every three get put on a line
+
+I need to make a web service to fetch the files

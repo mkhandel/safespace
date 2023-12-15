@@ -1,0 +1,25 @@
+body {
+  background-color: pink;
+  text-align: center;
+}
+
+form {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  position: fixed;
+  list-style-type: none;
+  top: 40%;
+  width: 100%;
+}
+
+div {
+  height: 50%;
+}
+
+li {
+  margin: 20px;
+}
