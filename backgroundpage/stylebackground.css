@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+
+}
+
+img {
+    height: 400px;
+    width: 800px;
+}
+
+ul {
+    list-style-type: none;
+}
