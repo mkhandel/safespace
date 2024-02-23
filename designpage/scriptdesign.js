@@ -35,3 +35,16 @@ document.querySelector("#noteli").addEventListener("mouseout", () => {
     document.querySelector("#notesbubble").style.visibility = "hidden";
   }
 );
+
+
+
+
+
+
+//TRIAL CODE
+let background = document.querySelector("#backgroundImage");
+console.log(background);
+console.log(background.src);
+let imageSource = localStorage.getItem("backgroundURL");
+background.src = imageSource;
+localStorage.setItem("backgroundURL", imageSource);
