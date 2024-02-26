@@ -36,12 +36,7 @@ document.querySelector("#noteli").addEventListener("mouseout", () => {
   }
 );
 
-
-
-
-
-
-//TRIAL CODE
+//change background
 let background = document.querySelector("#backgroundImage");
 console.log(background);
 console.log(background.src);
