@@ -76,12 +76,6 @@ document.querySelectorAll("li").forEach(el => {
   })
 });
 
-
-// document.querySelector("#backgroundli").addEventListener("mouseover", () => {
-//     document.querySelector("#waterfall").style.visibility = "visible";
-//   }
-// );
-
 document.querySelector("#noteli").addEventListener("mouseover", () => {
     document.querySelector("#notesbubble").style.visibility = "visible";
   }
