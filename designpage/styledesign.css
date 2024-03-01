@@ -31,16 +31,15 @@ ul {
   list-style-type: none;
 }
 
-li {
+.button {
   margin: 50px;
   outline: 5px solid;
   padding: 10px;
-}
-
-#leftlist {
-  position: fixed;
-  left: 0%;
-  top: 30%;
+  background: transparent;
+  border-radius: 24px;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
 }
 
 #rightlist {
