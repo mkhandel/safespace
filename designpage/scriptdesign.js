@@ -39,10 +39,11 @@ document.querySelector("#nextButton").addEventListener("click", () => {
   document.body.style.backgroundImage = `url(${images[activeIndex]})`;
 })
 
-
-
-
-
+//save button functionality
+document.querySelector("#saveli").addEventListener("click", () => {
+  localStorage.setItem("backgroundURL", images[activeIndex]);
+}
+);
 
 
 
@@ -76,10 +77,10 @@ document.querySelectorAll("li").forEach(el => {
 });
 
 
-document.querySelector("#backgroundli").addEventListener("mouseover", () => {
-    document.querySelector("#waterfall").style.visibility = "visible";
-  }
-);
+// document.querySelector("#backgroundli").addEventListener("mouseover", () => {
+//     document.querySelector("#waterfall").style.visibility = "visible";
+//   }
+// );
 
 document.querySelector("#noteli").addEventListener("mouseover", () => {
     document.querySelector("#notesbubble").style.visibility = "visible";
@@ -98,6 +99,3 @@ document.querySelector("#noteli").addEventListener("mouseout", () => {
 // let imageSource = localStorage.getItem("backgroundURL");
 // background.src = imageSource;
 // localStorage.setItem("backgroundURL", imageSource);
-
-
-
