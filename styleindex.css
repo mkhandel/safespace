@@ -51,11 +51,24 @@ video {
 
 .right {
   position: fixed;
-  right: 0%;
+  right: -50%;
   top: 0%;
   height: 100vh;
   width: 30vh;
   background-color: white;
+
+  outline: blue dashed 2px;
+}
+
+@keyframes moveleft {
+  from {right: -100%; top: 0px;}
+  to {right: 0%; top: 0px;}
+}
+
+@keyframes moveright {
+  from {right: 0%; top: 0px;}
+  to {right: -100%; top: 0px;}
+  
 }
 
 .toggle {
@@ -70,10 +83,6 @@ video {
   cursor: pointer;
 }
 
-.right {
-  display: none;
-}
-
 .toggleactive {
   background-image: url("./assets/exit.png");
   background-repeat: no-repeat;
@@ -85,9 +94,9 @@ video {
 }
 
 .menu {
-  position: fixed;
+  position: absolute;
   top: 40%;
-  right: 10%;
+  right: 30%;
 }
 
 .menu li {
@@ -120,7 +129,6 @@ video {
   font-size: 1em;
   max-width: 500px;
 }
-
 
 ul {
   list-style-type: none;
