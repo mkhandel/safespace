@@ -56,8 +56,6 @@ video {
   height: 100vh;
   width: 30vh;
   background-color: white;
-
-  outline: blue dashed 2px;
 }
 
 @keyframes moveleft {
