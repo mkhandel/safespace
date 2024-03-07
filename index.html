@@ -3,33 +3,39 @@
 <html>
   <head>
     <link rel="stylesheet" href="styleindex.css">
-    <title>Virtual Reality Safe Space</title>
+    <title>Safe Space</title>
   </head>
   <body>
-    <ul class="toprow">
-      <li class="logo"><h2>Safe Space</h2></li>
-      <li class="toggle"></li>
-    </ul>
-    <!--needs muted feature for video to play in chrome-->
-    <video src="assets/snow.mp4" loop autoplay muted>Snow falling in a forest 
-      with a man and a dog standing in the distance
-    </video>
-    <div class="text">
-      <h2>A Place</h2>
-      <h2>To Feel Safe</h2>
-      <p>a place or environment in which a person or category of people 
-        can feel confident that they will not be exposed to harm
-      </p>
+    <div class="left">
+      <ul class="toprow">
+        <li class="logo"><h2>Safe Space</h2></li>
+        <li class="toggle"></li>
+      </ul>
+    
+      <!--needs muted feature for video to play in chrome-->
+      <video src="assets/snow.mp4" loop autoplay muted>Snow falling in a forest 
+        with a man and a dog standing in the distance
+      </video>
+      <div class="background"></div>
+      <div class="text">
+        <h2>A Place</h2>
+        <h3>To Feel Safe</h3>
+        <p>a place or environment in which a person or category of people 
+          can feel confident that they will not be exposed to harm
+        </p>
+      </div>
     </div>
-    <ul class="menu">
-      <li><a>Home</a></li>
-      <li><a href="./loginpage/login.html">Log In</a></li>
-      <li><a>Demo</a></li>
-      <li><a>About</a></li>
-      <li><a>Contact</a></li>
-    </ul>
+    <div class="right">
+      <li class="toggleactive"></li>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="./loginpage/login.html">Log In</a></li>
+        <li><a href="#">Demo</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
     <script type="text/javascript" src="scriptindex.js" defer>
     </script>
-
   </body>
 </html>
